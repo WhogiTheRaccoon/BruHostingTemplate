@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+/* I'm personally not a huge fan of how tailwind4 changed layering and tailwind.config.ts imports... I'm sure after I've used it a lot i'll be more used to it
+   They even completely changed the default sizes of elements and the container... Wild
+ */
+
+@theme {
+  --color-accent: #6345F1;
+  --color-background: #121416;
+  --color-backgroundLight: #1F2125;
+  --color-accent: #6345F1;
+  --color-borders: #282A2E;
+  --color-muted: #C9CBCD;
+}
+
+.header-bg {
+  background-color: #1F2125;
+  background-position: center calc(50% - 20rem); /* Move Background to how we want it */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#halo {
+  background-attachment: fixed;
+}
+
+/* CORE */
+@layer components {
+  .container {
+    @apply px-4 md:px-0 mx-auto;
+  }
+}
+
+@layer utilities {
+  * {
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 300;
+  }
+
+  /* Move to utility layer */
+  strong {
+    @apply font-semibold;
+  }
+
+}
+
+code {
+  @apply bg-backgroundLight/75 p-2 rounded-md text-sm;
+}
+
+.card {
+  @apply p-5 rounded-md shadow-lg text-white mx-auto;
+}
+
+/* GameHosting */
+
+.gameIcon {
+  @apply rounded-xl h-auto md:h-[352px] transition-transform duration-300 border-2 border-transparent group-hover:border-accent group-hover:scale-105 group-hover:-translate-y-2;
+}
+
+.gameBadge {
+  @apply mx-auto px-2 rounded-md absolute -top-3 left-1/2 transform -translate-x-1/2 whitespace-nowrap transition-transform duration-300 group-hover:scale-105 group-hover:-translate-y-2 z-50;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  
+}
+
+/* Table */
+.tableHeader, .tableItem, thead, tbody {
+  @apply p-5 border border-borders font-light;
+}
+
+.tableSection {
+  @apply p-5 border border-borders text-left font-semibold;
+}
+
+/* Glider */
+.glide__arrow {
+  @apply text-muted text-3xl border-none rounded-full;
+}
+
+.text-md {
+  @apply text-base;
+}

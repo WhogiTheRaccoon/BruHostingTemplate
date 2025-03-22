@@ -1,0 +1,45 @@
+[
+    {
+        "name": "DED 1 EPYC 7B13",
+        "cpu": "64c/128t - 3.4ghz",
+        "ram": "1TB DDR4 EEC",
+        "storage": "4x 3.84TB NVMe SSD",
+        "bandwidth": "330TB (10 Gbps)",
+        "ip": "1 IPv4 + /64 IPv6",
+        "deployment": "2 Weeks",
+        "price": "$250/mo",
+        "link": "#"
+    },
+    {
+        "name": "DED 2 EPYC 9654",
+        "cpu": "96c/192t - 3.4ghz",
+        "ram": "1.2TB DDR5 ECC",
+        "storage": "4x 7.68TB NVMe SSD",
+        "bandwidth": "330TB (10 Gbps)",
+        "ip": "1 IPv4 + /64 IPv6",
+        "deployment": "2 Weeks",
+        "price": "$450/mo",
+        "link": "#"
+    }, {
+        "name": "DED 3 EPYC 9654",
+        "cpu": "96c/192t - 3.4ghz",
+        "ram": "2.2TB DDR5 ECC",
+        "storage": "8x 7.68TB NVMe SSD",
+        "bandwidth": "330TB (10 Gbps)",
+        "ip": "1 IPv4 + /64 IPv6",
+        "deployment": "2 Weeks",
+        "price": "$250/mo",
+        "link": "#"
+    },
+    {
+        "name": "CUSTOM",
+        "cpu": "Custom Config",
+        "ram": "Up to 2TB",
+        "storage": "HDD, SSD, or NVMe",
+        "bandwidth": "1-10Gbps",
+        "ip": "IPv4 + IPv6 & BYOIP",
+        "deployment": "2 Weeks",
+        "price": "Contact Us",
+        "link": "#"
+    }
+]

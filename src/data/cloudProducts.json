@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Standard XS",
+        "cpu": "4 vCPU - 3.4ghz",
+        "ram": "8GB DDR4",
+        "storage": "60GB NVMe SSD",
+        "bandwidth": "5TB Bandwidth",
+        "deployment": "Instant",
+        "price": "$12/mo",
+        "link": "#"
+    },
+    {
+        "name": "Standard S",
+        "cpu": "6 vCPU - 3.4ghz",
+        "ram": "16GB DDR4",
+        "storage": "120GB NVMe SSD",
+        "bandwidth": "15TB Bandwidth",
+        "deployment": "Instant",
+        "price": "$20/mo",
+        "link": "#"
+    },
+    {
+        "name": "Standard M",
+        "cpu": "8 vCPU - 3.4ghz",
+        "ram": "32GB DDR4",
+        "storage": "240GB NVMe SSD",
+        "bandwidth": "30TB Bandwidth",
+        "deployment": "Instant",
+        "price": "$36/mo",
+        "link": "#"
+    },
+    {
+        "name": "Standard L",
+        "cpu": "12 vCPU - 3.4ghz",
+        "ram": "64GB DDR4",
+        "storage": "480GB NVMe SSD",
+        "bandwidth": "60TB Bandwidth",
+        "deployment": "Instant",
+        "price": "$52/mo",
+        "link": "#"
+    },
+    {
+        "name": "Standard XL",
+        "cpu": "24 vCPU - 3.4ghz",
+        "ram": "128GB DDR4",
+        "storage": "960GB NVMe SSD",
+        "bandwidth": "120TB Bandwidth",
+        "deployment": "Instant",
+        "price": "$100/mo",
+        "link": "#"
+    }
+]

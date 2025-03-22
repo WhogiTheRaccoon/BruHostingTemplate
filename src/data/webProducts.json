@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Basic Plan",
+        "price": "5",
+        "websites": 1,
+        "storage": "10GB",
+        "bandwidth": "100GB",
+        "SSL": "Free",
+        "Backups": "Weekly",
+        "Uptime": true,
+        "domains": 1,
+        "panel": "DirectAdmin",
+        "support": "24/7",
+        "Location": "Miami, FL",
+        "link": "#"
+    },
+    {
+        "name": "Pro Plan",
+        "price": "15",
+        "websites": 5,
+        "storage": "50GB",
+        "bandwidth": "500GB",
+        "SSL": "Free",
+        "Backups": "Daily",
+        "Uptime": true,
+        "domains": 5,
+        "panel": "cPanel",
+        "support": "24/7",
+        "Location": "Las Vegas, NV",
+        "link": "#"
+    },
+    {
+        "name": "Business Plan",
+        "price": "30",
+        "websites": 10,
+        "storage": "100GB",
+        "bandwidth": "1TB",
+        "SSL": "Free",
+        "Backups": "Hourly",
+        "Uptime": true,
+        "domains": "Fair use",
+        "panel": "cPanel",
+        "support": "24/7",
+        "Location": "Miami, FL",
+        "link": "#"
+    }
+]

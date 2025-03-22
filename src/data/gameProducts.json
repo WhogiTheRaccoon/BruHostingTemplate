@@ -1,0 +1,93 @@
+
+[
+    {
+        "name": "Minecraft",
+        "image": "/images/games/minecraft.webp",
+        "price": 3.99,
+        "badge": {
+            "text": "Most Popular",
+            "color": "bg-green-700",
+            "icon": "ExclamationCircleIcon"
+        },
+        "altNames": "mc",
+        "link": "/minecraft"
+    },
+    {
+        "name": "Rust",
+        "image": "/images/games/rust.webp",
+        "price": 14.99,
+        "link": "#"
+    },
+    {
+        "name": "Palworld",
+        "image": "/images/games/palworld.webp",
+        "price": 14.99,
+        "link": "#"
+    },
+    {
+        "name": "Abiotic Factor",
+        "image": "/images/games/abioticfactor.webp",
+        "price": 5.99,
+        "badge": {
+            "text": "Staff Favorite",
+            "color": "bg-accent",
+            "icon": "FaceSmileIcon"
+        },
+        "link": "#"
+    },
+    {
+        "name": "Terraria",
+        "image": "/images/games/terraria.webp",
+        "price": 4.99,
+        "altNames": "tmod tmodloader",
+        "link": "#"
+    },
+    {
+        "name": "Garry's Mod",
+        "image": "/images/games/gmod.webp",
+        "price": 4.99,
+        "badge": {
+            "text": "Most Popular",
+            "color": "bg-green-700",
+            "icon": "ExclamationCircleIcon"
+        },
+        "altNames": "gmod garrys",
+        "link": "#"
+    },
+    {
+        "name": "Project Zomboid",
+        "image": "/images/games/zomboid.webp",
+        "price": 9.99,
+        "link": "#"
+    },
+    {
+        "name": "SCP: Secret Laboratory",
+        "image": "/images/games/scp.webp",
+        "price": 5.99,
+        "link": "#"
+    },
+    {
+        "name": "Dayz",
+        "image": "/images/games/dayz.webp",
+        "price": 9.99,
+        "link": "#"
+    },
+    {
+        "name": "Squad",
+        "image": "/images/games/squad.webp",
+        "price": 7.99,
+        "link": "#"
+    },
+    {
+        "name": "Vrising",
+        "image": "/images/games/vrising.webp",
+        "price": 10.99,
+        "link": "#"
+    },
+    {
+        "name": "Barotrauma",
+        "image": "/images/games/barotrauma.webp",
+        "price": 5.99,
+        "link": "#"
+    }
+]
