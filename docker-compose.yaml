@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  nextjs-app:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PROJECT_NAME=HostingWebsiteTemplate
+      - EMAIL_HOST=
+      - EMAIL_PORT=
+      - EMAIL_USER=
+      - EMAIL_PASS=
+      - ADMIN_EMAIL=
+    restart: always

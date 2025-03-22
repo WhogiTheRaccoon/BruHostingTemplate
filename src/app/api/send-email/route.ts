@@ -1,3 +1,5 @@
+export const runtime = "nodejs"; // Ensure this API route runs on the server
+
 import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
 
