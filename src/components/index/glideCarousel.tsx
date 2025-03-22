@@ -63,10 +63,10 @@ const GlideCarousel = () => {
                     <h3 className="text-2xl text-muted pb-1 font-light">Game Servers</h3>
                     <h1 className="text-4xl font-bold text-white">Fast & Flexible <span className="text-accent font-bold">Game Servers.</span></h1>
                     <h2 className="text-2xl font-semibold text-muted pt-3">Investing in your community, one block at a time.<br/> Host with us today and enjoy high performance Hosting.</h2>
-                    <div className="flex flex-col md:flex-row text-white md:space-x-4 pt-2">
-                      <span className="flex items-center"><CpuChipIcon className="size-5 mr-1"/> 3.5Ghz+ EPYC 9654</span>
-                      <span className="flex items-center"><Cog6ToothIcon className="size-5 mr-1"/> Custom Panel</span>
-                      <span className="flex items-center"><Square3Stack3DIcon className="size-5 mr-1"/> Raid-10 NVMe SSD Storage</span>
+                    <div className="flex flex-row flex-wrap text-white space-x-2 md:space-x-4 pt-2">
+                      <span className="flex items-center mx-auto"><CpuChipIcon className="size-5 mr-1"/> 3.5Ghz+ EPYC 9654</span>
+                      <span className="flex items-center mx-auto"><Cog6ToothIcon className="size-5 mr-1"/> Custom Panel</span>
+                      <span className="flex items-center mx-auto"><Square3Stack3DIcon className="size-5 mr-1"/> Raid-10 NVMe SSD Storage</span>
                     </div>
                     <ul id="features" className="list-disc list-inside text-muted text-xl py-3">
                         <li>High Speed, Purpose built Servers across all locations</li>
@@ -91,10 +91,10 @@ const GlideCarousel = () => {
                     <h3 className="text-2xl text-muted pb-1 font-light">Web Servers</h3>
                     <h1 className="text-4xl font-bold text-white">Fast & Flexible <span className="text-accent font-bold">Web Servers</span></h1>
                     <h2 className="text-2xl font-semibold text-muted pt-3">Investing in your community, one block at a time.<br /> Host with us today and enjoy high performance Hosting.</h2>
-                    <div className="flex flex-col md:flex-row text-white md:space-x-4 pt-2">
-                      <span className="flex items-center"><CpuChipIcon className="size-5 mr-1"/> 3.5Ghz+ EPYC 9654</span>
-                      <span className="flex items-center"><Cog6ToothIcon className="size-5 mr-1"/> Multi Panel</span>
-                      <span className="flex items-center"><Square3Stack3DIcon className="size-5 mr-1"/> Raid-10 NVMe SSD Storage</span>
+                    <div className="flex flex-row flex-wrap text-white space-x-2 md:space-x-4 pt-2">
+                      <span className="flex items-center mx-auto"><CpuChipIcon className="size-5 mr-1"/> 3.5Ghz+ EPYC 9654</span>
+                      <span className="flex items-center mx-auto"><Cog6ToothIcon className="size-5 mr-1"/> Multi Panel</span>
+                      <span className="flex items-center mx-auto"><Square3Stack3DIcon className="size-5 mr-1"/> Raid-10 NVMe SSD Storage</span>
                     </div>
                     <ul id="features" className="list-disc list-inside text-muted text-xl py-3">
                       <li>High performance website hosting</li>

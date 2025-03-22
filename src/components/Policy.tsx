@@ -26,7 +26,7 @@ export default function Policy({ title, description, lastUpdated, filePath }: Po
         {/* Rendered markdown */}
         <section id="content">
             <div className="container mx-auto px-4 py-8">
-                <div className="prose prose-base prose-invert max-w-none prose-h2:mb-1 prose-h2:mt-5 prose-p:mt-1 prose-p:mb-1 prose-h1:mb-2 prose-th:p-3 prose-td:p-3 prose-span:text-green-400 prose-tr:border-borders prose-table:w-1/2">
+                <div className="prose prose-base prose-invert max-w-none prose-h2:mb-1 prose-h2:mt-5 prose-p:mt-1 prose-p:mb-1 prose-h1:mb-2 prose-th:p-3 prose-td:p-3 prose-span:text-green-400 prose-tr:border-borders prose-table:w-full md:prose-table:w-1/2">
                     <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>
                         {markdownContent}
                     </ReactMarkdown>

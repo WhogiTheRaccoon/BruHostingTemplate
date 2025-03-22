@@ -13,14 +13,14 @@ export default function Navbar () {
             <div className="flex container items-center justify-between h-16 mt-3 mx-auto">
                
                {/* Icon */}
-                <a href="/" className="flex items-center text-white text-3xl" onClick={() => setIsOpen(!isOpen)}>
+                <a href="/" className="flex items-center text-white text-3xl z-50" onClick={() => setIsOpen(!isOpen)}>
                     <Image src="/images/logo.png" alt="Whogi World Logo" width={76} height={64} className="h-16 pr-2 mt-4" />
                     <span className="font-normal">Whogi</span>
                     <span className="text-accent font-normal">World</span>
                 </a>
 
                 {/* Hamburgers Are good */}
-                <button className="md:hidden text-white" onClick={() => setIsOpen(!isOpen)}>
+                <button className="md:hidden text-white z-50" onClick={() => setIsOpen(!isOpen)}>
                     {isOpen ? <XMarkIcon className="size-8" /> : <Bars4Icon className="size-8" />}
                 </button>
 
@@ -45,7 +45,7 @@ export default function Navbar () {
                 
             {/* Mobile Nav */}
             {isOpen && (
-            <div className="md:hidden absolute top-0 w-full -z-10">
+            <div className="md:hidden absolute top-0 w-full">
                 <div className="bg-background w-full text-lg p-5 space-y-2 rounded-b-md pt-24"> 
                     <NavItem href='/' icon={<HomeIcon className="size-5 inline" />} label='Home' closeMenu={closeMenu} />
                     <NavItem href='/cloud' icon={<CloudIcon className="size-5 inline" />} label='Cloud' closeMenu={closeMenu} />

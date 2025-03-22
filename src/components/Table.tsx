@@ -32,7 +32,7 @@ const Table: React.FC<TableProps> = ({ data, headers, className }) => {
                         <td className="tableItem">{item.bandwidth}</td>
                         <td className="tableItem text-green-400">{item.deployment}</td>
                         <td className="tableItem">{item.price}</td>
-                        <td className="tableItem"><a href={item.link} className="bg-accent hover:bg-[#0160d9] hover:text-white p-2 rounded-md text-white">Order Now</a></td>
+                        <td className="p-4 border border-borders font-light"><a href={item.link} className="bg-accent hover:bg-[#0160d9] hover:text-white p-2 rounded-md text-white">Order Now</a></td>
                     </tr>
                 ))}
             </tbody>

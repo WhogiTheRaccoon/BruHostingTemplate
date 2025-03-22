@@ -35,7 +35,7 @@ export default function PanelOverview() {
                         }}
                     >
                         <span className="size-12 mx-auto mb-2">{option.icon}</span>
-                        <span>{option.label}</span>
+                        <span className="text-center mx-auto">{option.label}</span>
                         <span className="text-sm text-muted mx-5">{option.description}</span>
                     </button>
                 ))}
