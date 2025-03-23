@@ -42,8 +42,8 @@ export default function PanelOverview() {
             </div>
             
             <div className="flex gap-6 mt-5">
-                <div className="h-full mx-auto border-2 border-borders w-full md:w-5/6">
-                    <Image src={selectedImage} alt="Panel Preview" width={1275} height={635} className="border-2 border-borders shadow-2xl" />
+                <div className="h-full mx-auto border-2 border-borders w-full">
+                    <Image src={selectedImage} alt="Panel Preview" width={1532} height={762} className="border-2 border-borders shadow-2xl" />
                 </div>
             </div>
         </div>
